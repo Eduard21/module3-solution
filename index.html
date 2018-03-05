@@ -19,45 +19,54 @@
 <body>
 
   <header>
-
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-         <div class="navbar-header">
-               <a class="navbar-brand"> <h1>Food, LLC</h1></a>
-
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-           </button>
-        <div>
-
-      </div>
+    <nav id="header-nav" class="navbar navbar-default"> <!--Классы navbar и navbar-default (базовые классы меню) -->
+       <div class="container"> <!--Контейнер (определяет ширину Navbar)-->
+        <div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable-nav">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span><!--Полоски на кноке-->
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <a class="navbar-brand" href="#">Food, LLC</a><!--Название организации(фирмы)-->
+        </div>
+       </div>
     </nav>
-
   </header>
 
-  <div id="collapsable-nav" class="collapse navbar-collapse">
+<div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>
-              <a href="#">
-                <br class="visible-xs"> Chicken</a>
+              <a href="#" class="visible-xs"> <br > Chicken</a>
             </li>
             <hr>
             <li>
-              <a href="#"> 
-              <br class="hidden-lg"> Beef</a>
+              <a href="#" class="visible-xs"> <br > Beef</a>
             </li>
             <hr>
             <li>
-              <a href="#">
-              <br class="hidden-lg"> Sushi</a>
+              <a href="#" class="visible-xs"> <br > Sushi</a>
             </li>
             <hr>
-            
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
+
+
+<h1> Our Menu </h1>
+<div> 
+<section class="p1">
+<h2>Chicken</h2> 
+<p>Lorem ipsum dolor sit amlet,consectetur adipicing elit,sed do eismod tempor incididunt ut labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amlet,consectetur adipicing elit,sed do eismod tempor incididunt ut labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amlet,consectetur adipicing elit,sed do eismod tempor incididunt ut labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+</section>
+<section class="p2">
+  <h2>Beef</h2>
+  <p>Lorem ipsum dolor sit amlet,consectetur adipicing elit,sed do eismod tempor incididunt ut labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amlet,consectetur adipicing elit,sed do eismod tempor incididunt ut labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amlet,consectetur adipicing elit,sed do eismod tempor incididunt ut labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+</section>
+<section class="p3">
+  <h2>Sushi</h2>
+  <p>Lorem ipsum dolor sit amlet,consectetur adipicing elit,sed do eismod tempor incididunt ut labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amlet,consectetur adipicing elit,sed do eismod tempor incididunt ut labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amlet,consectetur adipicing elit,sed do eismod tempor incididunt ut labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</section>
+<div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
